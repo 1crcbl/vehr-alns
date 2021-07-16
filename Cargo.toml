@@ -1,0 +1,13 @@
+[package]
+name = "vehr_alns"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+oorandom = "11.1.3"
+vehr_core = { path = "../vehr-core-rs"}
+
+[dev-dependencies]
+tspf = "0.3.1"
